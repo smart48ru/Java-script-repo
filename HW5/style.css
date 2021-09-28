@@ -1,0 +1,40 @@
+.board{
+    width: 560px;
+    height: 560px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+
+.black{
+    width: 50px;
+    height: 50px;
+    background: #000;
+    color: white;
+}
+
+.white{
+    width: 50px;
+    height: 50px;
+    background: white;
+}
+
+.num-cel{
+    width: 50px;
+    height: 50px;
+    float:right;
+    text-align: center;
+    background: white;
+}
+
+.letters-cel{
+        width : 50px;
+        height: 50px;
+        background: white;
+        text-align: center;
+}
+
+
+.tablecatalog,
+.tablecatalog td {
+  border: 1px solid black;
+}
