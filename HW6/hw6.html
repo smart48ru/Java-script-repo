@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script_hw6.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Каталог / Домашнее задание №5 - 4</title>
+</head>
+
+<body>
+    
+    <div id="myModal" class="modal">
+    
+    
+        <div class="modal-content">
+            <div class="modal-header">
+                <span onclick="spanClick()" class="close">&times;</span>
+                <div id="modalheader">   <h2>Шапка модального окна</h2></div>
+            </div>
+            <div class="modal-body">
+                <div id="container">
+                    <a class="prev" href="#"> <img src="img/carousel-arrow-left-hover.png"></a>
+                    <div id="carousel" class="carousel">
+
+                    </div>
+                    <a class="next" href="#"><img src="img/carousel-arrow-right-hover.png"></a>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <table width="100%" cellspacing="0" cellpadding="4" border="0">
+        <tr>
+            <td width="65%">
+                Каталог
+
+            </td>
+            <td width="35%">
+
+                Корзина
+            </td>
+        </tr>
+        <tr>
+            <td id ="catalog"></td>
+            <td >
+                <div id="basket"></div>
+                <div id="total"></div>
+                <div id="button"></div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
